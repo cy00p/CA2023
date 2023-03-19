@@ -55,7 +55,7 @@ while (True):
         except SyntaxError:
                 conn.sendline(b"SYNTAX_ERR")
 
-print(conn.recvall())
+print(conn.recvall().decode())
 
 conn.close()
 

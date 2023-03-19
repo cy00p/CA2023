@@ -3,5 +3,5 @@
 Here are some writeups (feel free to contribute more, or make them better!):
 
 ### Misc
-[Remote Computation - Easy, Misc](remote-computation.md)
-[Janken - Easy, Misc](janken.md)
+- [Remote Computation - Easy, Misc](remote-computation.md)
+- [Janken - Easy, Misc](janken.md)

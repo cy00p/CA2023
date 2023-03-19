@@ -63,8 +63,8 @@ conn.close()
 
 ### Screenshots
 
-![[Pasted image 20230319164143.png]]
+![help-menu](https://user-images.githubusercontent.com/74212182/226181126-66f32455-4d5c-4334-b0fd-2364e6332cc3.png)
 
-![[Pasted image 20230319164009.png]]
+![debug-mode](https://user-images.githubusercontent.com/74212182/226181164-25f096b9-a571-481f-a284-a8c1e1e30abc.png)
 
-![[Pasted image 20230319165409.png]]
+![running-script](https://user-images.githubusercontent.com/74212182/226181010-b63c9c2f-e24d-4a3a-a9d9-16078ac122bc.png)

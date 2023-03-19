@@ -49,4 +49,10 @@ python script.py "import os; os.system('/bin/sh')"
 this printed some `chr(<DIGIT>)+` chain which I passed to our program and had code execution.
 
 ### Screenshots
+![Screenshot_20230320_004526](https://user-images.githubusercontent.com/74212182/226214493-9d84f430-08e1-4593-8c78-feebd38a0fec.png)
 
+![Screenshot_20230320_004839](https://user-images.githubusercontent.com/74212182/226214516-0b243579-cb4a-4c0b-b7fb-9ed69b7799cc.png)
+
+![Screenshot_20230320_005226](https://user-images.githubusercontent.com/74212182/226214521-b4a09733-1c93-4b43-8a47-ba3f4a75a1c6.png)
+
+![Screenshot_20230320_005309](https://user-images.githubusercontent.com/74212182/226214525-3959f297-7fff-4ea1-8281-b3cf7d85c908.png)

@@ -10,15 +10,15 @@ In search of the ancient relic, you go looking for the Pharaoh's tomb inside the
 ### Solution
 
 A good challenge, and what you were expected to do is design a jail break from a python REPL.
-**REPL**
+##### REPL
 So, what I did first, was try to understand what kind of interactive interface we were dealing with - i tried `ls`, and it gave me an error, and submitting that to google, all results pointed to `python`
-**Commands**
+##### Commands
 I tried a couple of python commands, and characters, and I made a list, which would help me know which programs I might use to escape the jail i.e.
 ```
 cmds => bin,help,id,import,dir,globals,print,eval,str,exec,ord,sys
 chars => {}<>TAB|()*[]=:+@!#$%^\-?
 ```
-**Thinking...**
+###### Thinking...
 I thought for a while, tried to google stuff, and after a number of trial and errors, I knew I had to find a way to use numbers to craft a solution, because strings were restricted, and i couldn't use even underscores.
 That's when I remembered..chr,ord..which funny enough, I had thought about but I couldn't conceptualize a working solution..playing around with it on a separate REPL, that's when this hit me - i could use **chr()** to produce chars and use **+** to join these characters and produce a **string**!!
 

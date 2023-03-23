@@ -18,7 +18,7 @@ I tried a couple of python commands, and characters, and I made a list, which wo
 cmds => bin,help,id,import,dir,globals,print,eval,str,exec,ord,sys
 chars => {}<>TAB|()*[]=:+@!#$%^\-?
 ```
-###### Thinking...
+##### Thinking...
 I thought for a while, tried to google stuff, and after a number of trial and errors, I knew I had to find a way to use numbers to craft a solution, because strings were restricted, and i couldn't use even underscores.
 That's when I remembered..chr,ord..which funny enough, I had thought about but I couldn't conceptualize a working solution..playing around with it on a separate REPL, that's when this hit me - i could use **chr()** to produce chars and use **+** to join these characters and produce a **string**!!
 

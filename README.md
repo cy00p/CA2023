@@ -3,6 +3,9 @@
 Here are some writeups (feel free to contribute more, or make them better!):
 
 ### Misc
-- [Remote Computation - Easy, Misc](remote-computation.md)
-- [Janken - Easy, Misc](janken.md)
-- [Nehebkaus Trap - Medium, Misc](nehebkaus-trap.md)
+- [Remote Computation - Easy](remote-computation.md)
+- [Janken - Easy](janken.md)
+- [Nehebkaus Trap - Medium](nehebkaus-trap.md)
+
+### Forensics
+- [Relic Maps - Medium](relic-maps.md)

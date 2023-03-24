@@ -31,7 +31,7 @@ wget --header "HOST: relicmaps.htb" http://<IP>:<PORT>/get/DdAbds/window.bat
 
 ### analyzing windows.bat
 A DOS batch file, and contains `ascii` text, apparently with very long lines, and uses CRLF. So, let's have a look at its contents, using `cat`
-From the start ([4](4)), you could see it's obfuscated, and just at the top, we see how the gibberish is made using `set` (which also obfuscates itself😑).
+From the start ([4][4]), you could see it's obfuscated, and just at the top, we see how the gibberish is made using `set` (which also obfuscates itself😑).
 Now, analyzing the format of all the lines;
 - obfuscation is done on the left, and the actual readable command is on the right
 - we are invoking set on each line, to assign the `commands` on the right, to the gibberish on the left

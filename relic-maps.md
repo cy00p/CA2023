@@ -5,7 +5,7 @@ Tags: **Forensics**, **Medium**
 Pandora received an email with a link claiming to have information about the location of the relic and attached ancient city maps, but something seems off about it. Could it be rivals trying to send her off on a distraction? Or worse, could they be trying to hack her systems to get what she knows? Investigate the given attachment and figure out what's going on and get the flag. The link is to http://relicmaps.htb:/relicmaps.one. The document is still live (relicmaps.htb should resolve to your docker instance).
 
 ### Downloadable Files
-[zip](files/rm)
+[zip](files/relicmaps)
 
 ### Solution
 
@@ -56,3 +56,11 @@ The .bat file is readable now, and we can see what is happening:
 There are many ways to do that; and one most obvious route is to edit the .bat file, such that the end instruction is to create the PE file on our current directory. But this `.bat`, who writes windows batch script nowadays? Well you could, but I think cyberchef here was most convenient for me([8](8)), and I was able to obtain the flag by looking at the file in little endian.
 
 ### Screenshots
+![1](https://user-images.githubusercontent.com/74212182/227627433-965dce6b-5511-4233-be8b-a9e926d4a96f.png)
+![2](https://user-images.githubusercontent.com/74212182/227627488-0f3af2a8-7a89-4b96-803f-50976f6cdfe8.png)
+![3](https://user-images.githubusercontent.com/74212182/227627495-8f65076f-2086-4d68-a413-3f12ef745dc4.png)
+![4](https://user-images.githubusercontent.com/74212182/227627499-a543421c-8f0a-4e80-8321-37b3384e3cdf.png)
+![5](https://user-images.githubusercontent.com/74212182/227627517-18320957-3dd4-49b5-a5e5-ca42f6c735a8.png)
+![6](https://user-images.githubusercontent.com/74212182/227627523-c2a355f7-fd4e-4ac8-afb6-543001e9df73.png)
+![7](https://user-images.githubusercontent.com/74212182/227627526-9887e4de-19c7-464f-b0ed-22fdc5f07bd9.png)
+![8](https://user-images.githubusercontent.com/74212182/227627530-1118058e-2e84-40ed-b099-f09c57358fe2.png)
